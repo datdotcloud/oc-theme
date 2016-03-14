@@ -1,0 +1,99 @@
+/**
+ * @author Jan-Christoph Borchardt, http://jancborchardt.net
+ * @copyright Copyright (c) 2015, ownCloud, Inc.
+ * @license AGPL-3.0
+ *
+ * This code is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License, version 3,
+ * as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License, version 3,
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+
+ body {
+	background: #fefefe;
+	line-height: 1.5;
+	margin: 0
+ }
+ body, input, textarea, select, button {
+ 	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,sans-serif;
+ }
+
+ #body-user #header,
+ #body-settings #header,
+ #body-public #header {
+	background-color: #EB7700;
+ }
+
+ .header-appname, #settings {
+ 	color: #333;
+ }
+
+ #body-login {
+	text-align: center;
+
+	background:url(../img/bg.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+ }
+
+ #body-login .wrapper {
+	min-height: 100%;
+	margin: 0 auto -70px;
+	width: 300px;
+	display: table;
+ }
+
+ #body-login .v-align {
+	display: table-cell;
+	vertical-align: middle;
+ }
+
+#body-login input[type="text"],
+#body-login input[type="password"]  {
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+ }
+ 
+/* primary action button, use sparingly */
+/* header color as border, brighter shade again, here as background */
+.primary,
+input[type="submit"].primary,
+input[type="button"].primary,
+button.primary,
+.button.primary,
+.primary:active,
+input[type="submit"].primary:active,
+input[type="button"].primary:active,
+button.primary:active,
+.button.primary:active {
+	border-color: #EB7700;
+	background-color: #EB7700;
+}
+.primary:hover,
+input[type="submit"].primary:hover,
+input[type="button"].primary:hover,
+button.primary:hover,
+.button.primary:hover,
+.primary:focus,
+input[type="submit"].primary:focus,
+input[type="button"].primary:focus,
+button.primary:focus,
+.button.primary:focus {
+	background-color: #EB7700;
+}
+.primary:active, input[type="submit"].primary:active, input[type="button"].primary:active, button.primary:active, .button.primary:active,
+.primary:disabled, input[type="submit"].primary:disabled, input[type="button"].primary:disabled, button.primary:disabled, .button.primary:disabled,
+.primary:disabled:hover, input[type="submit"].primary:disabled:hover, input[type="button"].primary:disabled:hover, button.primary:disabled:hover, .button.primary:disabled:hover,
+.primary:disabled:focus, input[type="submit"].primary:disabled:focus, input[type="button"].primary:disabled:focus, button.primary:disabled:focus, .button.primary:disabled:focus {
+	background-color: #EB7700;
+}
